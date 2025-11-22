@@ -1,0 +1,46 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+
+  /* LIGHT THEME */
+  color-scheme: light;
+  --bg: #ffffff;
+  --card-bg: transparent;
+  --text-main: #202124;
+  --text-muted: #757575;
+
+  --border-subtle: #d0d0d7;
+  --grid-line: #e0e0e0;
+  --axis-text: #9e9e9e;
+  --tooltip-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+  --chart-bg: #ffffff;
+  --chart-border: transparent; 
+}
+
+/* DARK THEME */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #000027;           /* фон страницы / графика */
+  --card-bg: transparent;
+  --text-main: #1B1B23;
+  --text-muted: #b0b0c8;
+
+  --border-subtle: #34344a;
+  --grid-line: #33385f;
+  --axis-text: #b0b0c8;
+  --tooltip-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+  --chart-bg: #000027;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text-main);
+}
