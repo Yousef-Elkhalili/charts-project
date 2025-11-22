@@ -29,12 +29,12 @@ Interactive line chart to visualize A/B test conversion rates over time.
 
 ## Live demo
 
-- GitHub Pages: `https://<your-username>.github.io/<repo-name>/`
+- GitHub Pages: `https://yousef-elkhalili.github.io/charts-project/`
 
 ## Local setup
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/Yousef-Elkhalili/charts-project.git
 cd <repo-name>
 npm install
 npm run dev
